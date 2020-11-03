@@ -1,0 +1,18 @@
+Dear Security Team,
+
+I have identified an issue within your application which allows me to perform an XSS attack. Please find the reproductive steps below: 
+
+Log into your application at https://www.yourapp.com.
+
+Once you are within the application, go back to the Login page by navigating to https://www.yourapp.com/Login.
+
+Once you are back on the Login page, paste the following command into your browsers URL bar:
+
+javascript:eval(atob(‘YWxlcnQoJ1RoaXMgaXMgYW4gWFNTIGF0dGFjayBhZ2FpbnN0IHlvdXIgYXBwbGljYXRpb24uJyk=’))
+
+This will trigger the XSS attack on your site.
+
+To remediate this, you need to consider all input from users as untrusted and sanitize all input that goes into the application.
+
+Thank you,
+Best Security Researcher Ever
