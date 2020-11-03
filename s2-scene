@@ -1,0 +1,16 @@
+To whom it may concern,
+
+During the course of testing your website, we have identified a SQL injection vulnerability within your application. To reproduce the issue, please see the following steps:
+
+Log in at https://www.yoursite.com.
+
+Once logged in, go to the Customer’s Search function at the top.
+
+Fill out the search fields as you would typically, but for country, put:' OR 1=1; -- 
+
+After verifying the SQL injection existed, we pulled a portion of the database down using SQLMap. Please find the output below.
+
+<Attached is the output from SQLMap>
+
+Thank you,
+Hack4U, LLC
