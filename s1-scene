@@ -8,7 +8,7 @@ Once you are within the application, go back to the Login page by navigating to 
 
 Once you are back on the Login page, paste the following command into your browsers URL bar:
 
-javascript:eval(atob(‘YWxlcnQoJ1RoaXMgaXMgYW4gWFNTIGF0dGFjayBhZ2FpbnN0IHlvdXIgYXBwbGljYXRpb24uJyk=’))
+javascript:alert(1);
 
 This will trigger the XSS attack on your site.
 
