@@ -1,6 +1,8 @@
 Hello,
 
-During the course of testing your application, we’ve identified a bug in your application. It looks like maybe your caching emails and sending out cached versions of password reset emails. When I point Burp Intruder at your password reset page and I execute a bunch of password resets against my account, I’ll get a number of emails all containing the same password. It looks like your email service might just be resending the same email over and over.
+During the course of testing your application, we’ve identified a bug in your application. It looks like maybe your caching emails and sending out cached 
+versions of password reset emails. When I point Burp Intruder at your password reset page and I execute a bunch of password resets against my account, I’ll 
+get a number of emails all containing the same password. It looks like your email service might just be resending the same email over and over.
 
 I don't think this is a security issue, but it might be something you want to fix.
 
