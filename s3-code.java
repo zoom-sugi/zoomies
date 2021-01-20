@@ -53,6 +53,8 @@ public class ResetPasswordServlet extends HttpServlet {
         r.setSeed(Instant.now().getEpochSecond());
         String newPassword = Long.toHexString(r.nextLong());
  
+        //There is a function here that sets the password. Its been redacted from this code snippet.
+     
         String content = "Hi, this is your new password: " + newPassword;
         content += "\nNote: for security reason, "
                 + "you must change your password after logging in.";
