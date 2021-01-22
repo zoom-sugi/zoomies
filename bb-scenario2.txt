@@ -1,0 +1,8 @@
+Hello Zoom Security,
+
+Suppose I am an attacker and the user’s browser is compromised. I am then able to access the recovery email
+option of your $APPLICATION account. 
+
+Please fix this bug.
+
+- Awesome Hacker
