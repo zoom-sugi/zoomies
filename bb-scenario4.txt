@@ -1,0 +1,8 @@
+Hi Bug Bounty Manager,
+
+Thank you for thinking of adding our product to the Zoom program. At this point though we don't have the time
+to remediate any security issues because we have so many features to implement. Maybe we will do this in the future.
+
+thanks
+
+- Product Manager
