@@ -1,0 +1,8 @@
+Dear Zoom Security,
+
+An attacker is just required to send an email confirmation link to the victim & he’ll be automatically
+logged into his (attacker’s) account. I can then monitor his actions & interact.
+
+Please fix this bgu.
+
+- Awesome HAcker
