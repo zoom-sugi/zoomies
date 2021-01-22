@@ -1,0 +1,11 @@
+Hello Zoom Security,
+
+I have found the following vulnerability in your site. 
+
+The attacker creates a fake account and changes his e-mail. The attacker then creates a fake account and changes his
+e-mail. The e-mail confirmation link can now be used to login someone into the fake account and then monitor
+actions performed by the victim or even interact with him.
+
+Please fix this.
+
+- Awesome Hacker
