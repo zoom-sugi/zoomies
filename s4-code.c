@@ -9,7 +9,7 @@ int main(void)
     printf("\n Enter the password : \n");
     gets(buff);
 
-    if(strcmp(buff, "p@ssw0rd123!"))
+    if(!strcmp(buff, "p@ssw0rd123!"))
     {
         printf ("\n Wrong Password \n");
     }
